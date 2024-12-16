@@ -8,21 +8,43 @@
 </head>
 <body>
     <header>
-        <img src="company_logo.jpg" alt="Logo of our company">
-        <a href="">Our Products</a>
-        <a href="">About us</a>
-        <a href="">Contact us</a>
+        <div id="header_logo">
+            <img src="images/keyboard_logo.png" alt="Logo of our company" id="logo">
+        </div>
+        <div id="header_link_group">
+            <a id="header_link_1" class="header_links">Our Products</a>
+            <a id="header_link_2" class="header_links">About us</a>
+            <a id="header_link_3" class="header_links">Contact us</a>
+        </div>
     </header>
-    <h1>This website is awesome</h1>
-    <p>I'm making this landing page as an project for the Odin Project! I hope it turns out well!</p><img src="keyboard.jpeg" alt="Image of a mechanical keyboard">
-    <button type="button">Sign up</button>
-    <h3>Some random information</h3>
-    <figure><img src="blue.jpg" alt="Image of a blue switch"> <figcaption>Tactile and clicky, offering a satisfying "click" with each press. Great for typing but noisy in shared spaces.</figcaption></figure>
-    <figure><img src="red.jpeg" alt="Image of a red switch"> <figcaption>Linear and smooth, with no tactile bump. Quiet and responsive, ideal for gaming.</figcaption></figure>
-    <figure><img src="brown.jpg" alt="Image of a red switch"> <figcaption>Tactile feedback without the click. A balanced option for both typing and gaming.</figcaption></figure>
-    <figure><img src="black.jpg" alt="Image of a black switch"> <figcaption>Linear with a heavier actuation force. Ideal for gamers who prefer a more solid feel.</figcaption></figure>
-    <div id="qoute">
-        <p><i>Qoute</i></p>
+    <div id="hero">
+        <div id="hero_text_button">
+            <div id="hero_text">
+                <h1>This website is awesome</h1>
+                <p id="hero_subtext">I'm making this landing page as an project for the Odin Project!<br>I hope it turns out well!</p>
+            </div>
+            <div id="hero_button_div">
+                <button id="hero_button">Sign up</button>
+            </div>
+        </div>
+        <div id="hero_image">
+            <img src="images/keyboard.jpeg" alt="Image of a mechanical keyboard">
+        </div>      
+    </div>
+    <h3 id="information_header">Some random information</h3>  
+    <div id="information">
+        <figure><img class="information_images" src="images/blue.jpg" alt="Image of a blue switch"> <figcaption>Tactile and clicky, offering a satisfying "click" with each press. Great for typing but noisy in shared spaces.</figcaption></figure>
+        <figure><img class="information_images" src="images/red.jpg" alt="Image of a red switch"> <figcaption>Linear and smooth, with no tactile bump. Quiet and responsive, ideal for gaming.</figcaption></figure>
+        <figure><img class="information_images" src="images/brown.jpg" alt="Image of a red switch"> <figcaption>Tactile feedback without the click. A balanced option for both typing and gaming.</figcaption></figure>
+        <figure><img class="information_images" src="images/black.jpg" alt="Image of a black switch"> <figcaption>Linear with a heavier actuation force. Ideal for gamers who prefer a more solid feel.</figcaption></figure>
+    </div>
+    <div id="qoute_div">
+        <blockquote id="qoute">
+            <p><i>With great keyboard, comes great keyboard.<br>The question is how fast can you type, not how many mistakes you make.<br>Always remember, Monkee thincs, Monkee typs but most importantly monkee</i></p>
+        </blockquote>
+        <footer id="qoute_author">
+            -Samin Ahmed
+        </footer>
     </div>
     <div id="cta_container">
         <div id="cta_headers">
@@ -31,6 +53,6 @@
         </div>
         <button id="cta_button">Sign up</button>
     </div>
-    <footer>Copyright The Odin Project 2021</footer>
+    <footer id="end_footer">Copyright © The Odin Project 2021</footer>
 </body>
 </html>

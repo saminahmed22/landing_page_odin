@@ -1,1 +1,1 @@
-# landing_page_odin
+Test project from The Odin porject.

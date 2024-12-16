@@ -1,24 +1,91 @@
 header{
-    background-color: blue;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    height: 40px;
+    width: 60px;
+    padding: 10px 0 10px 20px;
+}
+#header_link_group{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 20px 20px 0 10px;
+}
+.header_links{
+    padding: 0 10px 0 0;
+}
+.header_links:hover{
+    color:wheat;
+}
+.header_links:active{
+    color: lightblue;
+}
+body{
+    margin: 0;
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    margin: 0;
+    padding: 40px;
+}
+#hero_subtext{
+    font-size: small;
+    padding-left: 20px;
+}
+#hero_button_div{
+    padding: 10px 0px 0 25px;
+}
+#hero_button{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0;
+    padding: 7px;
+    cursor: pointer;
+}
+#hero_button:hover{
+    color: black;
+}
+#hero_button:active{
+    color: lightblue;
+}
+#information_header{
+    display: flex;
+    justify-content: center;
+}
+#information{
+    display: flex;
+    justify-content: space-between;
+}
+.information_images{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+figcaption{
+    font-size: small;
+}
+#qoute_div{
+    display: block;
+    background-color: #E5E7EB;
+    margin: 0px;
+    padding: 0px;
 }
 #qoute{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
-    margin: 0px;
-    padding: 0px;
-
 }
-body{
-    margin: 0;
-}
-footer{
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* #qoute_author{
+    padding:0 0 15px 500px;
+} */
 #cta_container{
     display: flex;
     justify-content: space-around;
@@ -36,4 +103,22 @@ footer{
     border-radius: 5px;
     background-color: transparent;
     border: 2px solid white;
+    cursor: pointer;
+}
+#cta_button:hover{
+    color: black;
+}
+#cta_button:active{
+    color:lightblue;
+}
+
+#end_footer{
+    background-color: #1f2937;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0;
 }
