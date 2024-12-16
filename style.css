@@ -1,0 +1,39 @@
+header{
+    background-color: blue;
+}
+#qoute{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    margin: 0;
+}
+footer{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cta_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 15px 200px 15px 200px;
+    border-radius: 20px;
+}
+#cta_headers{
+    color: white;
+}
+#cta_button{
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+}
