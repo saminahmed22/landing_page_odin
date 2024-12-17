@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto_thin;
+    src: url(fonts/Roboto-Light.ttf);
+}
+
 header{
     background-color: #1f2937;
     color: white;
@@ -25,6 +30,7 @@ header{
     color: lightblue;
 }
 body{
+    font-family: Roboto_thin;
     margin: 0;
 }
 #hero{
@@ -62,43 +68,61 @@ body{
 }
 #information{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 0 10px 0;
 }
 .information_images{
     height: 100px;
     width: 100px;
     border-radius: 5px;
 }
+figure {
+    display: flex;
+    flex-direction: column; /* Stack image and caption vertically */
+    align-items: center; /* Center them horizontally */
+    justify-content: center; /* Center them vertically (if needed) */
+    text-align: center; /* Ensure caption text is centered */
+    margin: 0; /* Optional: reset margin */
+}
+
 figcaption{
     font-size: small;
 }
 #qoute_div{
     display: block;
+    text-align: center;
     background-color: #E5E7EB;
     margin: 0px;
-    padding: 0px;
+    padding: 5px 0 10px 0;
 }
-#qoute{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* #qoute_author{
-    padding:0 0 15px 500px;
-} */
+
 #cta_container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
-    margin: 15px 200px 15px 200px;
-    border-radius: 20px;
+    border-radius: 5px;
+    max-height: 80px;
+    max-width: 450px;
+    min-height: 80px;
+    min-width: 450px;
+}
+#cta_dad{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 5px 0;
+    
 }
 #cta_headers{
     color: white;
+    padding: 0
+}
+#cta_subtext{
+    font-size: smaller;
 }
 #cta_button{
-    padding: 3px;
+    padding: 7px;
     color: white;
     border-radius: 5px;
     background-color: transparent;
